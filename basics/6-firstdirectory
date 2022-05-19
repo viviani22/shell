@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir PATH=$PATH:/root/tmp/ my_first_directory
+mkdir $PATH my_first_directory
