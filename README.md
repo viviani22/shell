@@ -1,2 +1,3 @@
 # shell
-not empty
+
+### Repository for shell projects.
