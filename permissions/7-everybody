@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ugo+x home
+chmod 751 home
