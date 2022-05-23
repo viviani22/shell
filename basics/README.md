@@ -1,5 +1,6 @@
 # Scripts for basic shell commands
-
+#### Shell, basics
+Some simple scripts containing common shell commands. 
 - [0-current-working-directory](https://github.com/viviani22/shell/blob/main/basics/0-current_working_directory) **Prints** the absolute path name of the current working directory.
 - [1-listit](https://github.com/viviani22/shell/blob/main/basics/1-listit) **Displays** the contents list of current directory.
 - [2-bring_me_home](https://github.com/viviani22/shell/blob/main/basics/2-bring_me_home) **Changes** the working directory to the user’s home directory.
