@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
-
-#Comment
+# This script is displaying "Best School" 10 times
+i=0
+until [ $x -gt 9 ];
+do
+    echo Best School
+    (( x++ ))
+done
