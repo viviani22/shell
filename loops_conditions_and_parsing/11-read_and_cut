@@ -3,8 +3,8 @@
 
 file=/etc/passwd
 
-while read print
+while read -r print
 do
     cut -d ':' -f1,3,6
-    echo $print
+    echo "$print"
 done < "$file"
