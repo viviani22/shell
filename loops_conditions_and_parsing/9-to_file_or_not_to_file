@@ -2,11 +2,19 @@
 # Script that gives you information about the school file, and if it exists which type of file it is
 
 
-if [ -e school ]
+if [ -a school ]
 then
     echo school file exists
-    if [-s school]
-       echo school file is not empty
-       else
-	   echo school file is empty
-	   
+    if [ -s school ]
+    then
+	echo school is not empty
+    else
+	echo school is empty
+    fi
+    if [ -f school ]
+    then
+	echo school is a regular file
+    fi
+else
+    echo school file does not exist
+fi
