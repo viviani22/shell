@@ -1,3 +1,10 @@
 #!/usr/bin/env bash
+# Script that displays the content of the file /etc/passwd but only the username, user id and home directory path for the user
 
-#Comment
+file=/etc/passwd
+
+while read print
+do
+    cut -d ':' -f1,3,6
+    echo $print
+done < "$file"
