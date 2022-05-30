@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script that displays the parsed Apache logs to show the OCCURENCE_NUMBER IP and HTTP_code using the awk command
+
+awk '{$1,$9}' apache-access.log | 
