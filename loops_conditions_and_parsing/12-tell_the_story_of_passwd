@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
+# Script that displays each line of the /etc/passwd file as a message, with some words being variable strings taken from the 1-7th fields of each line from the mentioned file
 
-#Comment
+file=/etc/passwd
+while IFS=: read -r f1 f2 f3 f4 f5 f6 f7
+do 
+ echo "The user $1 is part of the $4 gang, lives in $6 and rides $7. $3's place is protected by the passcode $2, more info about the user here: $5"
+done < "$file"
