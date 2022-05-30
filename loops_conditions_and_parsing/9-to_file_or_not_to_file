@@ -1,3 +1,12 @@
 #!/usr/bin/env bash
+# Script that gives you information about the school file, and if it exists which type of file it is
 
-#Comment
+
+if [ -e school ]
+then
+    echo school file exists
+    if [-s school]
+       echo school file is not empty
+       else
+	   echo school file is empty
+	   
