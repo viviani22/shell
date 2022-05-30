@@ -1,3 +1,17 @@
 #!/usr/bin/env bash
+# This script is displaying "bad luck" for the 4th loop, "good luck" for the 8th loop and "Best School" for any other loop
 
-#Comment
+i=0
+while (( i<10 ))
+do
+    if (( i==4 ))
+    then
+	echo bad luck
+    elif (( i==8 ))
+    then
+	echo good luck
+    else
+	echo Best School
+    fi
+    (( i++ ))
+done
