@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Script that displays its own PID
+# Script that adds to the previous and displays lines containing the bash word.
 
-echo "$$"
+ps -auxf | grep -e 'BASH'
