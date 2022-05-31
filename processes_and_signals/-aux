@@ -1,0 +1,143 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   6972     0 ?        Ss   May24   0:00 /bin/bash /etc/sandbox_run.sh
+root         8  0.0  0.0  12172     0 ?        S    May24   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         9  0.0  0.0   7236    44 pts/0    Ss+  May24   0:00 /bin/bash
+root        32  0.0  0.0 218680    12 pts/0    Tl   May24   0:00 emacs 25-acrostic
+root        48  0.0  0.0 218680    64 pts/0    Tl   May24   0:00 emacs 25-acrostic
+root        65  0.0  0.0 218940    64 pts/0    Tl   May24   0:00 emacs 26-the_biggest_fan
+root        81  0.0  0.0   7236    48 pts/1    Ss+  May26   0:00 /bin/bash
+root       113  0.0  0.0 218404   148 pts/1    Tl   May26   0:00 emacs 0-alias
+root       140  0.0  0.0 218924    64 pts/1    Tl   May26   0:00 emacs 0-alias
+root       144  0.0  0.0 218404   140 pts/1    Tl   May26   0:00 emacs 1
+root       148  0.0  0.0 218944     8 pts/1    Tl   May26   0:00 emacs 1-hello_you
+root       160  0.0  0.0 218404   144 pts/1    Tl   May26   0:00 emacs README.md
+root       174  0.0  0.0 218952    72 pts/1    Tl   May26   0:00 emacs 1-hello_you
+root       182  0.0  0.0 218668    72 pts/1    Tl   May26   0:00 emacs 1-hello_you
+root       192  0.0  0.0 218808    72 pts/1    Tl   May26   0:00 emacs 1-hello_you
+root       201  0.0  0.0 218668    72 pts/1    Tl   May26   0:00 emacs 1-hello_you
+root       210  0.0  0.0 218668    12 pts/1    Tl   May26   0:00 emacs 1-hello_you
+root       219  0.0  0.0 218808    76 pts/1    Tl   May26   0:00 emacs 1-hello_you
+root       228  0.0  0.0 218808    72 pts/1    Tl   May26   0:00 emacs 1-hello_you
+root       253  0.0  0.0 218936    76 pts/1    Tl   May26   0:00 emacs 2-path
+root       279  0.0  0.0 218668    48 pts/1    Tl   May26   0:00 emacs 2-path
+root       286  0.0  0.0   7204     8 pts/1    T    May26   0:00 man export
+root       292  0.0  0.0   5836     0 pts/1    T    May26   0:00 pager
+root       300  0.0  0.0 218932    72 pts/1    Tl   May26   0:00 emacs 2-path
+root       309  0.0  0.0 218668   100 pts/1    Tl   May26   0:00 emacs 2-path
+root       316  0.0  0.0   7204     4 pts/1    T    May26   0:00 man export
+root       322  0.0  0.0   5836     0 pts/1    T    May26   0:00 pager
+root       330  0.0  0.0 218932    76 pts/1    Tl   May26   0:00 emacs 2-path
+root       347  0.0  0.0 218668    40 pts/1    Tl   May26   0:00 emacs 2-path
+root       361  0.0  0.0 218800    80 pts/1    Tl   May26   0:00 emacs 2-path
+root       377  0.0  0.0 218668    72 pts/1    Tl   May26   0:00 emacs 2-path
+root       397  0.0  0.0   7236    48 pts/2    Ss+  May26   0:00 /bin/bash
+root       410  0.0  0.0 218932    72 pts/2    Tl   May26   0:00 emacs 3-paths
+root       426  0.0  0.0   7236    48 pts/3    Ss+  May26   0:00 /bin/bash
+root       439  0.0  0.0 218800    72 pts/3    Tl   May26   0:00 emacs 4-global_variables
+root       446  0.0  0.0   7284     0 pts/3    T    May26   0:00 man printenv
+root       458  0.0  0.0   5836     0 pts/3    T    May26   0:00 pager
+root       466  0.0  0.0 218932    72 pts/3    Tl   May26   0:00 emacs 4-global_variables
+root       482  0.0  0.0 218668    64 pts/3    Tl   May26   0:00 emacs 5-local_variables
+root       489  0.0  0.0 218940    12 pts/3    Tl   May26   0:00 emacs 6-create_local_variable
+root       514  0.0  0.0 218944    76 pts/3    Tl   May26   0:00 emacs 8-true_knowledge
+root       530  0.0  0.0 218936     0 pts/3    Tl   May26   0:00 emacs 9-divide_and_rule
+root       546  0.0  0.0 218964    72 pts/3    Tl   May26   0:00 emacs 10-love_exponent_breath
+root       562  0.0  0.0 218920    72 pts/3    Tl   May26   0:00 emacs 7-create_global_variable
+root       578  0.0  0.0 218952    72 pts/3    Tl   May26   0:00 emacs 11-binary_to_decimal
+root       594  0.0  0.0 218816     0 pts/3    Tl   May26   0:00 emacs 12-combinations
+root       614  0.0  0.0 219292    72 pts/3    Tl   May26   0:00 emacs 13-print_float
+root       630  0.0  0.0 219020    72 pts/3    Tl   May26   0:00 emacs 13-print_float
+root       639  0.0  0.0 219164    72 pts/3    Tl   May26   0:00 emacs 13-print_float
+root       658  0.0  0.0 218756   132 pts/3    Tl   May26   0:00 emacs 13
+root       662  0.0  0.0 219020    72 pts/3    Tl   May26   0:00 emacs 13-print_float
+root       678  0.0  0.0 219244    80 pts/3    Tl   May26   0:00 emacs 13-print_float
+root       697  0.0  0.0 219296    80 pts/3    Tl   May26   0:00 emacs 14-decimal_to_hexadecimal
+root       705  0.0  0.0 219024    76 pts/3    Tl   May26   0:00 emacs 14-decimal_to_hexadecimal
+root       721  0.0  0.0 219024    16 pts/3    Tl   May26   0:00 emacs 14-decimal_to_hexadecimal
+root       728  0.0  0.0 219020   100 pts/3    Tl   May26   0:00 emacs 11-binary_to_decimal
+root       735  0.0  0.0 219164    16 pts/3    Tl   May26   0:00 emacs 14-decimal_to_hexadecimal
+root       751  0.0  0.0 219300    76 pts/3    Tl   May26   0:00 emacs 14-decimal_to_hexadecimal
+root       767  0.0  0.0 219024    96 pts/3    Tl   May26   0:00 emacs 14-decimal_to_hexadecimal
+root       774  0.0  0.0 219024    76 pts/3    Tl   May26   0:00 emacs 15-rot13
+root       790  0.0  0.0 219020    96 pts/3    Tl   May26   0:00 emacs 15-rot13
+root       797  0.0  0.0 219024   100 pts/3    Tl   May26   0:00 emacs 14-decimal_to_hexadecimal
+root       804  0.0  0.0 218888    96 pts/3    Tl   May26   0:00 emacs 11-binary_to_decimal
+root       811  0.0  0.0   7236    48 pts/4    Ss   May27   0:00 /bin/bash
+root       822  0.0  0.0 218936    84 pts/4    Tl   May27   0:00 emacs 16-odd
+root       831  0.0  0.0 218668   104 pts/4    Tl   May27   0:00 emacs 16-odd
+root       838  0.0  0.0   5480     0 pts/4    S+   May27   0:00 paste --
+root       839  0.0  0.0   5488     0 pts/4    S+   May27   0:00 cut -f1
+root       840  0.0  0.0   7368    48 pts/5    Ss   May27   0:00 /bin/bash
+root       860  0.0  0.0 218668    44 pts/5    Tl   May27   0:00 emacs 16-odd
+root       868  0.0  0.0 219204    80 pts/5    Tl   May27   0:00 emacs 17-water_and_stir
+root       884  0.0  0.0 218772    76 pts/5    Tl   May27   0:00 emacs 5-local_variables
+root       892  0.0  0.0 218780    76 pts/5    Tl   May27   0:00 emacs 17-water_and_stir
+root       908  0.0  0.0 218940    84 pts/5    Tl   May27   0:00 emacs 12-combinations
+root       916  0.0  0.0 218668    44 pts/5    Tl   May27   0:00 emacs 12-combinations
+root       931  0.0  0.0   5480     0 pts/5    S+   May27   0:00 paste -
+root       932  0.0  0.0   7236    48 pts/6    Ss   May27   0:00 /bin/bash
+root       953  0.0  0.0 218684    80 pts/6    Tl   May27   0:00 emacs 17-water_and_stir
+root       960  0.0  0.0 218672    76 pts/6    Tl   May27   0:00 emacs 15-rot13
+root       967  0.0  0.0 218672   104 pts/6    Tl   May27   0:00 emacs 16-odd
+root       974  0.0  0.0   7204     8 pts/6    S+   May27   0:00 man paste
+root       981  0.0  0.0   5836     0 pts/6    S+   May27   0:00 pager
+root       982  0.0  0.0   7236    48 pts/7    Ss+  May27   0:00 /bin/bash
+root       994  0.0  0.0 218952    76 pts/7    Tl   May27   0:00 emacs 26-the_biggest_fan
+root      1001  0.0  0.0   7236    48 pts/8    Ss   May30   0:00 /bin/bash
+root      1013  0.0  0.0 218664    76 pts/8    Tl   May30   0:00 emacs 24-gifs
+root      1029  0.0  0.0 218664    64 pts/8    Tl   May30   0:00 emacs 24-gifs
+root      1036  0.0  0.0 218672     0 pts/8    Tl   May30   0:00 emacs 26-the_biggest_fan
+root      1111  0.0  0.0 218400    72 pts/8    Tl   May30   0:00 emacs 1-for_best_school
+root      1118  0.0  0.0 218808    32 pts/8    Tl   May30   0:00 emacs 1-for_best_school
+root      1122  0.0  0.0 218816    72 pts/8    Tl   May30   0:00 emacs 1-for_best_school
+root      1159  0.0  0.0 218928     0 pts/8    Tl   May30   0:00 emacs 1-for_best_school
+root      1177  0.0  0.0 218800    80 pts/8    Tl   May30   0:00 emacs 1-for_best_school
+root      1186  0.0  0.0 218956    48 pts/8    Tl   May30   0:00 emacs 1-for_best_school
+root      1195  0.0  0.0 218800    44 pts/8    Tl   May30   0:00 emacs 1-for_best_school
+root      1204  0.0  0.0 218668    76 pts/8    Tl   May30   0:00 emacs 1-for_best_school
+root      1213  0.0  0.0 218804    80 pts/8    Tl   May30   0:00 emacs 1-for_best_school
+root      1230  0.0  0.0 218808    64 pts/8    Tl   May30   0:00 emacs 1-for_best_school
+root      1247  0.0  0.0 219068    76 pts/8    Tl   May30   0:00 emacs 2-while_best_school
+root      1257  0.0  0.0 218800    80 pts/8    Tl   May30   0:00 emacs 2-while_best_school
+root      1268  0.0  0.0 218796    68 pts/8    Tl   May30   0:00 emacs 2-while_best_school
+root      1278  0.0  0.0 218664    76 pts/8    Tl   May30   0:00 emacs 2-while_best_school
+root      1288  0.0  0.0 218804    76 pts/8    Tl   May30   0:00 emacs 2-while_best_school
+root      1298  0.0  0.0 218928    80 pts/8    Tl   May30   0:00 emacs 2-while_best_school
+root      1309  0.0  0.0 218808    84 pts/8    Tl   May30   0:00 emacs 2-while_best_school
+root      1326  0.0  0.0 218940    84 pts/8    Tl   May30   0:00 emacs 3-until_best_school
+root      1336  0.0  0.0 218800    20 pts/8    Tl   May30   0:00 emacs 3-until_best_school
+root      1345  0.0  0.0 218952    84 pts/8    Tl   May30   0:00 emacs 3-until_best_school
+root      1354  0.0  0.0 218800    80 pts/8    Tl   May30   0:00 emacs 3-until_best_school
+root      1363  0.0  0.0 218800    80 pts/8    Tl   May30   0:00 emacs 3-until_best_school
+root      1373  0.0  0.0 218800    80 pts/8    Tl   May30   0:00 emacs 3-until_best_school
+root      1389  0.0  0.0 218804    80 pts/8    Tl   May30   0:00 emacs 3-until_best_school
+root      1405  0.0  0.0 218664   104 pts/8    Tl   May30   0:00 emacs 3-until_best_school
+root      1413  0.0  0.0 218948    80 pts/8    Tl   May30   0:00 emacs 3-until_best_school
+root      1430  0.0  0.0 219192    88 pts/8    Tl   May30   0:00 emacs 4-if_9_say_hi
+root      1440  0.0  0.0 218924    80 pts/8    Tl   May30   0:00 emacs 4-if_9_say_hi
+root      1449  0.0  0.0 218936    80 pts/8    Tl   May30   0:00 emacs 4-if_9_say_hi
+root      1458  0.0  0.0 218924    80 pts/8    Tl   May30   0:00 emacs 4-if_9_say_hi
+root      1467  0.0  0.0 218924    80 pts/8    Tl   May30   0:00 emacs 4-if_9_say_hi
+root      1476  0.0  0.0 218924     0 pts/8    Tl   May30   0:00 emacs 4-if_9_say_hi
+root      1485  0.0  0.0 218660    96 pts/8    Tl   May30   0:00 emacs 4-if_9_say_hi
+root      1492  0.0  0.0 218936    96 pts/8    Tl   May30   0:00 emacs 4-if_9_say_hi
+root      1509  0.0  0.0 218660    52 pts/8    Tl   May30   0:00 emacs 4-if_9_say_hi
+root      1516  0.0  0.0 218804    80 pts/8    Tl   May30   0:00 emacs 5-4_bad_luck_8_is_your_chance
+root      1524  0.0  0.0 218660   104 pts/8    Tl   May30   0:00 emacs 4-if_9_say_hi
+root      1531  0.0  0.0 219344    76 pts/8    Tl   May30   0:00 emacs 5-4_bad_luck_8_is_your_chance
+root      1539  0.0  0.0   6972     0 pts/8    T    May30   0:00 bash ./5-4_bad_luck_8_is_your_chance
+root      1540  0.0  0.0 218932    76 pts/8    Tl   May30   0:00 emacs 5-4_bad_luck_8_is_your_chance
+root      1548  0.0  0.0   6972     0 pts/8    T    May30   0:00 bash ./5-4_bad_luck_8_is_your_chance
+root      1549  0.0  0.0 218660    64 pts/8    Tl   May30   0:00 emacs 4-if_9_say_hi
+root      1556  0.0  0.0 218928    80 pts/8    Tl   May30   0:00 emacs 5-4_bad_luck_8_is_your_chance
+root      1573  0.0  0.0 218932    80 pts/8    Tl   May30   0:00 emacs 5-4_bad_luck_8_is_your_chance
+root      1589  0.0  0.0 218792    76 pts/8    Sl+  May30   0:00 emacs 6-superstitious_numbers
+root      1596  0.0  0.0   7236    48 pts/9    Ss+  May30   0:00 /bin/bash
+root      1609  0.0  0.0 219352     0 pts/9    Tl   May30   0:00 emacs 6-superstitious_numbers
+root      1618  0.0  0.0   6972     0 pts/9    T    May30   0:00 bash ./6-superstitious_numbers
+root      1619  0.0  0.0 218928    88 pts/9    Tl   May30   0:00 emacs 6-superstitious_numbers
+root      1627  0.0  0.0   6972     0 pts/9    T    May30   0:00 bash ./6-superstitious_numbers
+root      1628  0.0  0.0 219336    76 pts/9    Tl   May30   0:00 emacs 6-superstitious_numbers
+root      1636  0.0  0.0   6972    32 pts/9    T    May30   0:00 bash ./6-superstitious_numbers
+root      1637  0.0  0.0 218932     0 pts/9    Tl   May30   0:00 emacs 6-superstitious_numbers
+root      1646  0.0  0.0 218792    44 pts/9    Tl   Ma
