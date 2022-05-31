@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Script that displays its own PID
+#Script that deletes highlander
 
-echo "$$"
+pkill -f -9 "7-highlander"
