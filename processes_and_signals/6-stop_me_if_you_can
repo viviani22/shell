@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Script that stops process not using kill command
 
-trap 9
+pkill -f -9 "4-to_infinity_and_beyond"

@@ -1,4 +1,11 @@
 #!/usr/bin/env bash
-# Script that displays its own PID
+# Script that prints 'To infinity and beyond' indefinitely with a sleep 2 and prints 'I am invincible!!!' when it terminates.
 
-echo "$$"
+#15 is SIGTERM 
+trap "echo 'I am invincible!!!'" 15
+
+while :
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
