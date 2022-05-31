@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Script that kills previous process
 
-ps | killall
+kill -9 -l
