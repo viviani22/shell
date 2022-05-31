@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Script that displays its own PID
+# Script that stops process not using kill command
 
-echo "$$"
+trap 9
