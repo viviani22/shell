@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # Script that stops process not using kill command
-#15 is SIGTERM
-
-pkill -15 -f "4-to_infinity_and_beyond"
+#9 is SIGKILL
+pkill -9 -f "4-to_infinity_and_beyond"
