@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
-# Script that displays its own PID
+# Script that prints a message indefinitely and add sleep 2
 
-echo "$$"
+while :
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
