@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Script that displays its own PID
+# Script that displays only the PID of the processes containing 'bash'
 
-echo "$$"
+pgrep -l 'bash'
