@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-1;95;0c# Script that displays a list of all currently running processes, including those which may not have TTY, in a hiearchy 
+# Script that displays a list of all currently running processes, including those which may not have TTY, in a hiearchy 
 
 ps -eM -H -f
