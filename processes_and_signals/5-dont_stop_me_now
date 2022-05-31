@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Script that displays its own PID
+# Script that kills previous process
 
-echo "$$"
+pkill 4-to_infinity_and_beyond
