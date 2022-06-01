@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Script that stops process not using kill command
 #9 is SIGKILL
-sudo pkill -f 4-to_infinity_and_beyond
+sudo pkill -f 4_to_infinity_and_beyond
