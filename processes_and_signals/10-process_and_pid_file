@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Creates the file /var/run/myscript.pid containing its PID
-echo "$$" > /var/run/myscript.py
-trap "echo I hate the kill command" 15
+echo "$$" > /var/run/myscript.pid
+trap "echo I hate the kill command" SIGTERM
 trap "echo Y U no love me?!" SIGINT
 #Displays To infinity and beyond indefinitely
 while true
@@ -9,4 +9,4 @@ do
     echo "To infinity and beyond"
     sleep 2
 done
-trap "rm /var/run/myscript.py" 3 15
+trap "rm /var/run/myscript.pid" SIGQUIT SIGTERM
