@@ -2,7 +2,7 @@
 #### Managing scripts, sending signals.
 
 - [0-what-is-my-pid](https://github.com/viviani22/shell/blob/main/processes_and_signals/0-what-is-my-pid) Script that displays its own PID.
-- [1-list_your_processes](https://github.com/viviani22/shell/blob/main/processes_and_signals/1-list_your_processes) Script that displays a list of all currently running processes, including those which may not have TTY, in a hiearchy.
+- [1-list_your_processes](https://github.com/viviani22/shell/blob/main/processes_and_signals/1-list_your_processes) Script that displays a list of all currently running processes, including those which may not have TTY, in a hiearchy order.
 - [2-show_your_bash_pid](https://github.com/viviani22/shell/blob/main/processes_and_signals/2-show_your_bash_pid) Script that adds to the previous and displays lines containing the bash word.
 - [3-show_your_bash_pid_made_easy](https://github.com/viviani22/shell/blob/main/processes_and_signals/3-show_your_bash_pid_made_easy) Script that displays only the PID of the processes containing 'bash'
 - [4-to_infinity_and_beyond](https://github.com/viviani22/shell/blob/main/processes_and_signals/4-to_infinity_and_beyond) Script that prints a message indefinitely every 2 seconds.
