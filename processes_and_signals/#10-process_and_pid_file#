@@ -9,4 +9,4 @@ do
     echo "To infinity and beyond"
     sleep 2
 done
-trap "rm /var/run/myscript.pid | pkill -15 -f /var/run/myscript.pid" SIGQUIT SIGTERM
+trap "rm /var/run/myscript.pid | pkill -f myscript.pid" SIGQUIT SIGTERM
