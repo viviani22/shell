@@ -1,26 +1,25 @@
 #!/usr/bin/env bash
 # Script that manages bg process manage_my_process. Either starting, stopping or restarting the other process and creating a file storing its PID.
 
+var1="/var/run/my_process.pid"
 if [ "$1" == "start" ]
 then
     ./manage_my_process &
-    echo $! >> /var/run/my_process.pid
+    echo '$!' > '/var/run/my_process.pid'
     echo "manage_my_process started" #Also job number, PID stored in .pid file
 
 elif [ "$1" == "stop" ]
 then
     pkill -f ./manage_my_process
-    pkill -f /var/run/my_process.pid
-    rm '/var/run/my_process.pid'
+    rm '$var1'
     echo "manage_my_process stopped" #And .pid file deleted 
 
 elif [ "$1" == "restart" ]
 then
     pkill -f ./manage_my_process
-    pkill -f /var/run/my_process.pid
-    rm '/var/run/my_process.pid'
+    rm '$var1'
     ./manage_my_process &
-    echo $! >> /var/run/my_process.pid
+    echo '$!' > '/var/run/my_process.pid'
     echo "manage_my_process restarted"
 else
     echo "Usage: manage_my_process {start|stop|restart}"
