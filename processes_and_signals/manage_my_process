@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Prints indefinitely "I am alive!"
-while true
+while :
 do
     echo 'I am alive!' >> /tmp/my_process
     sleep 2
