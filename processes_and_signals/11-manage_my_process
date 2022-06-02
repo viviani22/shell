@@ -11,13 +11,13 @@ then
 elif [ "$1" == "stop" ]
 then
     pkill -f ./manage_my_process
-    rm '$var1'
+    rm "$var1"
     echo "manage_my_process stopped" #And .pid file deleted 
 
 elif [ "$1" == "restart" ]
 then
     pkill -f ./manage_my_process
-    rm '$var1'
+    rm "$var1"
     ./manage_my_process &
     echo '$!' > '/var/run/my_process.pid'
     echo "manage_my_process restarted"
