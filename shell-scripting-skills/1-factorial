@@ -1,0 +1,12 @@
+#!/bin/bash
+#Shell script that computes the factorial of a number. Gets input from user.
+
+F=1
+echo "Input your number: "
+read n
+
+for (( i=1;i<=n;i++ ))
+do
+    F=$(( F*i ))
+done
+echo Factorial is $F

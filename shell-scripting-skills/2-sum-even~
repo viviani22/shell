@@ -1,0 +1,13 @@
+#!/bin/bash
+#Finds sum of even numbers until n number set by input
+i=2
+S=0
+echo "Input your number: "
+read n
+while (( i<n ))
+do
+    echo $i
+    S=$(( S+i ))
+    i=$(( i+2 ))
+done
+echo Sum of even numbers until $n is $S
